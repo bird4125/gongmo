@@ -90,22 +90,38 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 
 
-.part1{width:1200px;margin:0 auto;height:250px;text-align: center;display:flex;flex-wrap:wrap;justify-content: space-between;padding-top:120px;}
-.part1 .part1_sub{width:330px;height:100px;display:flex;padding:20px 0;background: #aaa;}
+.part1{width:1200px;margin:0 auto;height:400px;text-align: center;display:flex;flex-wrap:wrap;justify-content: space-around;align-items: center;}
+.part1 > .part1_sub{width:250px;height:250px;display:flex;flex-flow: column;}
+.part1 > .part1_sub > .icon {width: 100%; height: 70%;display: flex;align-items: center;justify-content: center;}
+.part1 > .part1_sub > .icon > div{width: 80px; height: 80px ;border-radius: 50% ;border: 3px solid #fff;display: flex;justify-content: center;align-items: center;flex-flow: column;}
+.part1 > .part1_sub > .icon > div > p {margin-top: 20px;font-size: 15px}
+.part1 > .part1_sub > .icon i{text-align: center;font-size: 70px;background: -webkit-linear-gradient(left,#c44283, #fff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transition: .5s;cursor: pointer;}
+.part1 > .part1_sub > .icon i:hover{font-size: 80px;transition: .5s}
+
+.part1 > .part1_sub > .flex {width: 100%; height: 30%}
+.part1 > .part1_sub > .flex h2{font-size: 18px;font-weight: 400;}
 
 
 
-.part2{width:1280px;margin:0 auto;height:400px;text-align: center;margin-top:50px;position: relative;overflow:hidden;}
+.part2{width:1280px;margin:0 auto;height:450px;text-align: center;margin-top:50px;position: relative;overflow:hidden;}
 .part2 > h3{font-size:30px;font-weight:400;margin-bottom:50px;}
 .part2 > .part2_flex{display:flex;width:400%;height: 400px;transition: 1s;}
-.part2 > .part2_flex .sub{width:1280px;height:300px;display:flex;justify-content: space-around;flex-wrap:wrap;}
-.part2 > .part2_flex .sub .part2_sub{width:250px;height:300px;text-align: center;}
-.part2 > .part2_flex .sub .part2_sub .for_img img{width:100%;height:150px;}
-.part2 > .part2_flex .sub .part2_sub h3{color:rgba(0,0,0,.6);font-size:18px;font-weight:600;margin-top:10px;}
-.part2 > .part2_flex .sub .part2_sub h4{color:#000;font-size:14px;margin-top:10px;}
-.part2 > .part2_flex .sub .part2_sub i{color:#c44283;font-size:20px;margin-top:10px;}
+.part2 > .part2_flex > .sub{width:1280px;height:250px;display:flex;justify-content: space-around;flex-wrap:wrap;margin: 50px 0px}
+.part2 > .part2_flex > .sub .part2_sub{width:250px;height:100%;text-align: center;position: relative;}
+.part2 > .part2_flex > .sub .part2_sub > .for_img{width:100%;height:150px;position: absolute;z-index: 10}
+.part2 > .part2_flex > .sub .part2_sub > .for_img:before{content: "";display: block;left: 0;right: 0;top: 0;bottom: 0;position: absolute;background:rgba(0,0,0,.5);width: 100%;height: 100%;z-index: 50;opacity: 0;transition: .5s;cursor: pointer;}
+.part2 > .part2_flex > .sub .part2_sub > .for_img:hover:before{opacity: 1;transition: .5s}
+.part2 > .part2_flex > .sub .part2_sub > .for_ment{width:100%;height:100px;position: absolute;top: 160px;z-index: 50}
+.part2 > .part2_flex > .sub .part2_sub > .for_img img{width:100%;height:150px;transition: .5s;position: relative;}
+.part2 > .part2_flex > .sub .part2_sub:hover > .for_ment {}
+
+.part2 > .part2_flex > .sub .part2_sub > h3{color:rgba(0,0,0,.6);font-size:18px;font-weight:600;margin-top:10px;}
+.part2 > .part2_flex > .sub .part2_sub > h4{color:#000;font-size:14px;margin-top:10px;}
+.part2 > .part2_flex > .sub .part2_sub > i{color:#c44283;font-size:20px;margin-top:10px;}
+.part2 > .part2_flex > .sub .part2_sub > p{font-size: 13px;padding: 2.5px 0px}
+
 .part2 > input{display:none;}
-.part2 > .arrow{display:flex;width:100px;justify-content: space-between;position: absolute;bottom:10px;left:calc(50% - 50px);}
+.part2 > .arrow{display:flex;width:100px;justify-content: space-between;position: absolute;bottom:-00px;left:calc(50% - 50px);}
 .part2 > .arrow label{display:block;width:10px;height:10px;border-radius:5px;border:#c44283 solid 1px;transition:.5s;}
 .part2 > .arrow label:hover{cursor:pointer;}
 
@@ -168,7 +184,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 
 .part3 .part3_sub .part3_txt{margin:50px;position: absolute;right: 10%;top: calc(50%  - 200px)}
-.part3 .part3_sub .part3_txt .move_h2{position: relative;width: 400px;height: 70px;overflow: hidden;}
+.part3 .part3_sub .part3_txt .move_h2{position: relative;width: 400px;height: 30px;overflow: hidden;}
 .part3 .part3_sub .part3_txt .move_h2 h2{position: absolute;transition: .5s;}
 .part3 .part3_sub .part3_txt .move_h2 h2:nth-child(1){transform: translateY(-80px);opacity: 0}
 .part3 .part3_sub .part3_txt .move_h2 h2:nth-child(2){transform: translateY(-80px);opacity: 0}
@@ -181,7 +197,42 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 .part3 .part3_sub .part3_txt > p{color:rgba(0,0,0,.5);font-weight:800;margin-bottom:10px;}
 .part3 .part3_sub .part3_txt > h2{font-weight:800;margin-bottom:10px;}
-.part3 .part3_sub .part3_txt .part3_bar{width:400px;height:3px;background:#c44283;margin-top:15px;}
+.part3 .part3_sub .part3_txt .part3_bar{width:350px;height:3px;background:#c44283;margin-top:15px;}
+#s3_slide1:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up1 .7s;}
+#s3_slide2:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up2 .7s;}
+#s3_slide3:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up3 .7s;}
+#s3_slide4:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up4 .7s;}
+#s3_slide5:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up5 .7s;}
+@keyframes size_up1{
+	0%{width: 350px}
+	50%{width: 400px}
+	100%{width: 350px}
+}
+
+@keyframes size_up2{
+	0%{width: 350px}
+	50%{width: 400px}
+	100%{width: 350px}
+}
+
+@keyframes size_up3{
+	0%{width: 350px}
+	50%{width: 400px}
+	100%{width: 350px}
+}
+
+@keyframes size_up4{
+	0%{width: 350px}
+	50%{width: 400px}
+	100%{width: 350px}
+}
+
+@keyframes size_up5{
+	0%{width: 350px}
+	50%{width: 400px}
+	100%{width: 350px}
+}
+
 
 .part3 .part3_sub .part3_txt .part3_btn{border-color: #000;}
 .part3 .part3_sub .part3_txt .part3_btn.rounded{position: absolute;right: 0;top: calc(50% + 100px)}
