@@ -9,7 +9,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 .top_block{width: 100%;height: 70px;display: flex;justify-content: center;align-items: center;position: absolute;background: rgba(0,0,0,0.2);}
 .logo{line-height:60px;font-size:30px}
 .logo h3{font-weight:200;position: relative;color: #fff;z-index: 100}
-.logo h3 span{color: #c44283;position: relative;z-index: 100}
+.logo h3 span{color: #9FFFA4;position: relative;z-index: 100}
 
 
 
@@ -22,7 +22,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 .menu a:nth-child(2):hover ~ .moving_bar {left: 30%;transition: .5s;opacity: 1;}
 .menu a:nth-child(3):hover ~ .moving_bar {left: 55%;transition: .5s;opacity: 1;}
 .menu a:nth-child(4):hover ~ .moving_bar {left: 80%;transition: .5s;opacity: 1;}
-.menu .moving_bar{position: absolute;width: 15%;height: 5px;background: #c44283;bottom: 0;transition: .7s;left: -25%;opacity: 0}
+.menu .moving_bar{position: absolute;width: 15%;height: 5px;background: #9FFFA4;bottom: 0;transition: .7s;left: -25%;opacity: 0}
 	
 /* .thing{display:flex;width: 120px;justify-content: space-between;align-items: center;height: 75px;}
 .thing>div{display: flex;flex-flow: column;width: 60px;align-content: center;justify-content: center;height: 100%}
@@ -53,11 +53,11 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 .upside:after{position: relative;}
 .upside h3{font-weight:400;margin-bottom:10px;}
 .upside h5{font-weight:400;margin-top:10px;}
-.upside h5 strong{font-weight:400;font-size:16px;color:#c44283;}
+.upside h5 strong{font-weight:400;font-size:16px;color:#9FFFA4;}
 .rounded{display:flex;flex-wrap:wrap;align-items:center;justify-content: center;z-index:20;width:150px;height:70px;margin:0 auto;}
 .rounded:hover{cursor:pointer;}
-.rounded:hover .circle{border:2px solid #c44283;opacity:.7;}
-.rounded:hover .c1{margin-left: initial;transition: .5s;background: #c44283;border:2px solid #c44283;opacity: 1}
+.rounded:hover .circle{border:2px solid #9FFFA4;opacity:.7;}
+.rounded:hover .c1{margin-left: initial;transition: .5s;background: #9FFFA4;border:2px solid #9FFFA4;opacity: 1}
 .rounded:hover .c2{margin-left: initial;transition: .5s}
 
 
@@ -95,7 +95,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 .part1 > .part1_sub > .icon {width: 100%; height: 70%;display: flex;align-items: center;justify-content: center;}
 .part1 > .part1_sub > .icon > div{width: 80px; height: 80px ;border-radius: 50% ;border: 3px solid #fff;display: flex;justify-content: center;align-items: center;flex-flow: column;}
 .part1 > .part1_sub > .icon > div > p {margin-top: 20px;font-size: 15px}
-.part1 > .part1_sub > .icon i{text-align: center;font-size: 70px;background: -webkit-linear-gradient(left,#c44283, #fff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transition: .5s;cursor: pointer;}
+.part1 > .part1_sub > .icon i{text-align: center;font-size: 70px;background: -webkit-linear-gradient(left,#9FFFA4, #fff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transition: .5s;cursor: pointer;}
 .part1 > .part1_sub > .icon i:hover{font-size: 80px;transition: .5s}
 
 .part1 > .part1_sub > .flex {width: 100%; height: 30%}
@@ -117,18 +117,18 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 .part2 > .part2_flex > .sub .part2_sub > h3{color:rgba(0,0,0,.6);font-size:18px;font-weight:600;margin-top:10px;}
 .part2 > .part2_flex > .sub .part2_sub > h4{color:#000;font-size:14px;margin-top:10px;}
-.part2 > .part2_flex > .sub .part2_sub > i{color:#c44283;font-size:20px;margin-top:10px;}
+.part2 > .part2_flex > .sub .part2_sub > i{color:#9FFFA4;font-size:20px;margin-top:10px;}
 .part2 > .part2_flex > .sub .part2_sub > p{font-size: 13px;padding: 2.5px 0px}
 
 .part2 > input{display:none;}
 .part2 > .arrow{display:flex;width:100px;justify-content: space-between;position: absolute;bottom:-00px;left:calc(50% - 50px);}
-.part2 > .arrow label{display:block;width:10px;height:10px;border-radius:5px;border:#c44283 solid 1px;transition:.5s;}
+.part2 > .arrow label{display:block;width:10px;height:10px;border-radius:5px;border:#9FFFA4 solid 1px;transition:.5s;}
 .part2 > .arrow label:hover{cursor:pointer;}
 
-.part2 #arrow1:checked ~ .arrow label:nth-child(1){background:#c44283;}
-.part2 #arrow2:checked ~ .arrow label:nth-child(2){background:#c44283;}
-.part2 #arrow3:checked ~ .arrow label:nth-child(3){background:#c44283;}
-.part2 #arrow4:checked ~ .arrow label:nth-child(4){background:#c44283;}
+.part2 #arrow1:checked ~ .arrow label:nth-child(1){background:#9FFFA4;}
+.part2 #arrow2:checked ~ .arrow label:nth-child(2){background:#9FFFA4;}
+.part2 #arrow3:checked ~ .arrow label:nth-child(3){background:#9FFFA4;}
+.part2 #arrow4:checked ~ .arrow label:nth-child(4){background:#9FFFA4;}
 
 .part2 #arrow1:checked ~ .part2_flex {margin-left: -0%}
 .part2 #arrow2:checked ~ .part2_flex {margin-left: -100%}
@@ -197,7 +197,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 .part3 .part3_sub .part3_txt > p{color:rgba(0,0,0,.5);font-weight:800;margin-bottom:10px;}
 .part3 .part3_sub .part3_txt > h2{font-weight:800;margin-bottom:10px;}
-.part3 .part3_sub .part3_txt .part3_bar{width:350px;height:3px;background:#c44283;margin-top:15px;}
+.part3 .part3_sub .part3_txt .part3_bar{width:350px;height:3px;background:#9FFFA4;margin-top:15px;}
 #s3_slide1:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up1 .7s;}
 #s3_slide2:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up2 .7s;}
 #s3_slide3:checked ~ .part3_sub .part3_txt .part3_bar {animation: size_up3 .7s;}
@@ -236,24 +236,24 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 .part3 .part3_sub .part3_txt .part3_btn{border-color: #000;}
 .part3 .part3_sub .part3_txt .part3_btn.rounded{position: absolute;right: 0;top: calc(50% + 100px)}
-.part3 .part3_sub .part3_txt .part3_btn.rounded:hover .circle{border:2px solid #c44283;}
+.part3 .part3_sub .part3_txt .part3_btn.rounded:hover .circle{border:2px solid #9FFFA4;}
 .part3 .part3_sub .part3_txt .part3_btn .circle{border:2px solid #b9b9b9;position: absolute;transition:.5s;}
 .part3 .part3_sub .part3_txt .part3_btn .circle.c1{width: 115px;height: 30px;}
 .part3 .part3_sub .part3_txt .part3_btn .circle.c2{width: 120px;height: 45px;}
 .part3 .part3_sub .part3_txt .part3_btn h4{font-size: 15px}
 
-#s3_slide1:checked ~ .part3_sub .part3_circle label:nth-child(1){background: #c44283;transition: .5s}
+#s3_slide1:checked ~ .part3_sub .part3_circle label:nth-child(1){background: #9FFFA4;transition: .5s}
 #s3_slide1:checked ~ .part3_sub .part3_txt .move_h2 h2:nth-child(1){transform: inherit;opacity: 1;transition: .5s;}
 #s3_slide2:checked ~ .part3_sub .part3_txt .move_h2 h2:nth-child(2){transform: inherit;opacity: 1;transition: .5s;}
 #s3_slide3:checked ~ .part3_sub .part3_txt .move_h2 h2:nth-child(3){transform: inherit;opacity: 1;transition: .5s;}
 #s3_slide4:checked ~ .part3_sub .part3_txt .move_h2 h2:nth-child(4){transform: inherit;opacity: 1;transition: .5s;}
 #s3_slide5:checked ~ .part3_sub .part3_txt .move_h2 h2:nth-child(5){transform: inherit;opacity: 1;transition: .5s;}
-#s3_slide2:checked ~ .part3_sub .part3_circle label:nth-child(2){background: #c44283;transition: .5s}
-#s3_slide3:checked ~ .part3_sub .part3_circle label:nth-child(3){background: #c44283;transition: .5s}
-#s3_slide4:checked ~ .part3_sub .part3_circle label:nth-child(4){background: #c44283;transition: .5s}
-#s3_slide5:checked ~ .part3_sub .part3_circle label:nth-child(5){background: #c44283;transition: .5s}
+#s3_slide2:checked ~ .part3_sub .part3_circle label:nth-child(2){background: #9FFFA4;transition: .5s}
+#s3_slide3:checked ~ .part3_sub .part3_circle label:nth-child(3){background: #9FFFA4;transition: .5s}
+#s3_slide4:checked ~ .part3_sub .part3_circle label:nth-child(4){background: #9FFFA4;transition: .5s}
+#s3_slide5:checked ~ .part3_sub .part3_circle label:nth-child(5){background: #9FFFA4;transition: .5s}
 .part3 .part3_sub .part3_circle{position: absolute;display: flex;flex-flow: column;right: 10%;top: calc(50%  - 100px);height: 100px;justify-content: space-between;}
-.part3 .part3_sub .part3_circle label{width: 8px; height: 8px; background: transparent;border-radius: 50%;border: 1px solid #c44283;transition: .5s;cursor: pointer;}
+.part3 .part3_sub .part3_circle label{width: 8px; height: 8px; background: transparent;border-radius: 50%;border: 1px solid #9FFFA4;transition: .5s;cursor: pointer;}
 
 
 .part4{width:1280px;height:700px;margin:0 auto;padding-top: 100px}
