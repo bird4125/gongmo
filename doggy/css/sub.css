@@ -1,6 +1,9 @@
 *{margin:0; padding:0;}
 a{color:inherit;text-decoration:none;}
 ul, li{list-style:none;}
+body{font-family: "Nanum Barun Gothic";font-weight: 300;}
+h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
+
 
 #header{width:100%;height:400px;}
 #header .head_top{width:1200px;height:50px;border:1px solid #000;margin:0 auto;display:flex;}
