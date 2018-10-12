@@ -1,22 +1,30 @@
 *{padding:0;margin:0;}
 ul, li{list-style:none;}
 a{text-decoration: none;color:inherit;}
+body{font-family: "Nanum Barun Gothic";font-weight: 300;}
+h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 
 /*full page*/
 .full{width:100vw;height:100vh;background:url(../img/back1.png) no-repeat center / cover;}
 
 /*header*/
-#header{width:100%;height:110px;background:rgba(0,0,0,.5);color:#fff;}
+#header{width:100%;height:65px;background:rgba(0,0,0,.5);color:#fff;}
 #header> h3{text-align: center;font-weight:400;line-height:60px;font-size:35px;}
 .menu{width:100%;height:50px;position:relative;background:rgba(255,255,255,.5);display:flex;justify-content:space-between;}
-.menu>label{display:block;width:38px;height:50px;background:rgba(0,0,0,.7);color:#fff;line-height:50px;font-size:30px;padding-left:12px;}
 .menu .btn{display:flex;align-items:center;width:calc(100% - 50px);justify-content: space-around;font-weight:400;font-size:20px;}
 .menu .btn .menubtn{width:380px;height:50px;text-align: center;line-height:50px;}
 .btn .menubtn:hover{cursor:pointer;}
 .btn .menubtn:hover ~ .btn .hidemenu{opacity:1;z-index:6;transform:translateY(0);cursor:pointer;transition:inherit;}
 
+.top_block{width: 100%;height: 70px;display: flex;align-items: center;justify-content: center;}
+.logo{line-height:60px;font-size:30px}
+.logo h3{font-weight:200;position: relative;color: #fff;z-index: 100}
+.logo h3 span{color: #c44283;position: relative;z-index: 100}
+
+
 /*main*/
-#main{color:#fff;margin:40px 60px;}
+#main{color:#fff;width: 100%;}
+#main .in_main{margin: 0px 50px;display: flex;flex-flow: column;}
 .txt{margin-bottom:10px;}
 .txt h3{font-weight:400;font-size:30px;margin-bottom:5px;}
 .txt p{font-weight:200;font-size:18px;}
