@@ -15,7 +15,7 @@ a{text-decoration: none;color:inherit;display:inline-block;}
 .btn .menubtn:hover{cursor:pointer;background:#c44283;color:#fff;}
 
 /*main*/
-#main{width:100%;margin-bottom:100px;}
+#main2{width:100%;margin-bottom:100px;}
 .head{color:#c44283;margin:50px 0;display:flex;justify-content:space-around;}
 .head h2{font-size:22px;font-weight:600;}
 .head p{opacity:.5;font-weight:600;color:#000;}
