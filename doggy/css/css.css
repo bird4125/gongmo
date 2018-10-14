@@ -10,7 +10,7 @@ h1,h2,h3,h4{font-family: "Nanum Barun Gothic";font-weight: 300}
 #header > .top {width: 100%;height: 85px;  border-bottom: 2px solid #0a2a91;}
 #header > .top .in_top{width: 1280px; margin: 0 auto;height: 100%;display: flex;align-items: center;justify-content: center;position: relative;}
 #header > .top .in_top > .logo h2{font-weight: bold;font-size: 27px}
-#header > .top .in_top > .login{position: absolute;right: 0;bottom: 0px;font-size: 13px;color: #666;width: 110px;height: 30px;display: flex;justify-content: space-between;}
+#header > .top .in_top > .login{position: absolute;right: 0;bottom: 0px;font-size: 13px;color: #666;width: 110px;height: 30px;display: flex;justify-content: space-between;align-items: center;}
 #header > .top .in_top > .login .bh{width: 2px ;height: 13px;background: #0a2a91;position: absolute;left: calc(50% - 5px)}
 #header > .top .in_top > .login a{transition: .3s;}
 #header > .top .in_top > .login a{font-size: 13px;color: #666}
