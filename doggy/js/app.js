@@ -15,6 +15,15 @@ function p1_animation(){
 		if(sb > ot){
 			$(this).removeClass("p1_moveBefore")
 		}
+		if($(this).hasClass("s1")) $(this).css({
+			"transition-delay":"0s"
+		})
+			if($(this).hasClass("s2")) $(this).css({
+			"transition-delay":"0.3s"
+		})
+				if($(this).hasClass("s3")) $(this).css({
+			"transition-delay":"0.6s"
+		})
 	})
 }
 function list_animation(){
